@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" role="img" aria-label="A glass of water with a clock">
+<defs>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6FD3CB"/><stop offset="1" stop-color="#1F7FA6"/></linearGradient>
+<clipPath id="g"><path d="M30 18h44l-6 70a6 6 0 0 1-6 5.5H42a6 6 0 0 1-6-5.5z"/></clipPath>
+</defs>
+<g clip-path="url(#g)">
+<rect x="20" y="10" width="70" height="90" fill="#DDF3F5"/>
+<path d="M20 52q9-6 18 0t18 0 18 0 16 0V100H20z" fill="url(#w)"/>
+<g fill="#fff" opacity=".7"><circle cx="46" cy="70" r="2.2"/><circle cx="54" cy="80" r="1.6"/><circle cx="60" cy="64" r="1.8"/></g>
+</g>
+<path d="M30 18h44l-6 70a6 6 0 0 1-6 5.5H42a6 6 0 0 1-6-5.5z" fill="none" stroke="#0B3C5D" stroke-width="3" stroke-linejoin="round"/>
+<path d="M50 6q4 6 0 10q-4-4 0-10z" fill="#3FB8AF"/>
+<circle cx="88" cy="70" r="19" fill="#fff" stroke="#3FB8AF" stroke-width="3.5"/>
+<path d="M88 59v11l7 5" fill="none" stroke="#0B3C5D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

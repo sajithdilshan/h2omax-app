@@ -103,3 +103,15 @@ section { padding: 112px 0; }
 .doc h2 { font-size: 1.3rem; margin-top: 2em; }
 footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--sub); font-size: .9rem; display: flex; gap: 20px; flex-wrap: wrap; }
 footer a { color: var(--sub); }
+footer { align-items: center; }
+footer .legal { margin-left: auto; display: flex; gap: 20px; flex-wrap: wrap; }
+
+/* Story art and themed step cards (dawn, noon, night as in the app) */
+.art-sm { width: 120px; height: 100px; margin-bottom: 18px; }
+.step .ic { width: 48px; height: 48px; display: block; }
+.step.dawn { background: linear-gradient(160deg, #F3CDB8 0%, #E9DCD2 55%, #D7E9EE 100%); color: #104668; }
+.step.noon { background: linear-gradient(160deg, #A9E2EA 0%, #CDEFF3 55%, #EEF9FA 100%); color: #0B3C5D; }
+.step.night { background: linear-gradient(160deg, #2E2A55 0%, #13203F 55%, #06141F 100%); color: var(--text); }
+.step.dawn h4, .step.noon h4 { color: inherit; }
+.step.dawn p { color: #5A5F6E; } .step.noon p { color: #3F6474; }
+.step.night h4 { color: var(--text); } .step.night p { color: var(--sub); }
