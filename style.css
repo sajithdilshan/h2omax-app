@@ -115,3 +115,10 @@ footer .legal { margin-left: auto; display: flex; gap: 20px; flex-wrap: wrap; }
 .step.dawn h4, .step.noon h4 { color: inherit; }
 .step.dawn p { color: #5A5F6E; } .step.noon p { color: #3F6474; }
 .step.night h4 { color: var(--text); } .step.night p { color: var(--sub); }
+
+/* Icon beside the heading, description full width below */
+.story > div, .steps .step { display: grid; grid-template-columns: auto 1fr; column-gap: 16px; align-items: center; align-content: start; }
+.story > div > p, .steps .step > p { grid-column: 1 / -1; margin-top: 14px; }
+.story .art-sm { width: 84px; height: 70px; margin: 0; }
+.story h3, .steps .step h4 { margin: 0; }
+.steps .step .ic { width: 44px; height: 44px; }
