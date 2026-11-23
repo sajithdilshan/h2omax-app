@@ -39,9 +39,9 @@ section { padding: 112px 0; }
 /* Hero: the day in four screenshots, dawn to night */
 .hero { padding: 96px 0 0; overflow: hidden; background: radial-gradient(120% 60% at 50% 0%, #14567A 0%, var(--tide) 40%, var(--ink) 100%); }
 .hero .icon { width: 96px; height: 96px; border-radius: 22px; margin: 0 auto 28px; box-shadow: 0 20px 50px -16px rgba(0,0,0,.7); }
-.badge { display: inline-block; margin-top: 32px; transition: transform .15s; }
-.badge img { display: block; height: 60px; width: auto; }
-.badge:hover { transform: translateY(-1px); }
+.store { display: inline-block; margin-top: 32px; transition: transform .15s; }
+.store img { display: block; height: 60px; width: auto; }
+.store:hover { transform: translateY(-1px); }
 .day { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px; margin: 80px auto 0; max-width: 1180px; padding: 0 24px 112px; }
 .day figure { margin: 0; text-align: center; }
 .day figcaption { margin-top: 18px; font-size: .95rem; color: var(--sub); }
